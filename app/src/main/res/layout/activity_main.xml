@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mainpchan.csc201_ch424_app.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please enter city's names below:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/city1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Enter the first city"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/city1input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city1"
+        android:gravity="center"
+        android:hint="input here"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/city2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city1input"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Enter the second city"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/city2input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city2"
+        android:gravity="center"
+        android:hint="input here"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/city3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city2input"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Enter the third city"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/city3input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city3"
+        android:gravity="center"
+        android:hint="input here"
+
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city3input"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:id="@+id/btn"
+        android:text="action"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/output"/>
+
+
+</RelativeLayout>
